@@ -22,6 +22,6 @@ let package = Package(
             targets: ["AWSDK"]),
     ],
     targets: [
-        .binaryTarget(name: "AWSDK", url: "https://github.com/ArturKoziol/workspace/releases/download/workspace/AWSDK.xcframework.zip", checksum:"66F6B481AA0EA5C70343782EBBFA9C925D61E19BF64F61EDD0D4B9BBD5D4A433")
+        .binaryTarget(name: "AWSDK", url: "https://github.com/ArturKoziol/workspace/releases/download/workspace/AWSDK.xcframework.zip")
     ]
 )
